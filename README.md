@@ -1,6 +1,7 @@
 # HydrogeomorphicPatches
 Delineate Hydrogeomorphic Patches
-Delineating Hydrogeomorphic Patches 
+
+
 Hydrogeomorphic patches were identified using four modules written in R programming language. The modules divide processing into discrete steps (i.e. create, attribute, and cluster) that must be run in sequence. A final module, “landscape metrics” quantifies spatial pattern in each network at different spatial scales. The documentation for the functions is provided with the source code in “./Data/ NHDHR_Functions_example.r”. Do not change field names as many functions use names to call specific columns within larger datasets. We also provide an example river network, Ozarks Complex-2 site (HUC4 = 0316), to illustrate the output of the different modules.  For large networks (i.e. > 5,000km2) processing time for an individual module can exceed 18 hours.  Below are descriptions of the output files generated from each module.
 
 Setup: 
